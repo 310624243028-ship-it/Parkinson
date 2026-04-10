@@ -1,0 +1,24 @@
+﻿======================================================================
+MODEL EVALUATION REPORT
+======================================================================
+.venv\Scripts\python.exe : Traceback (most recent call last):
+At line:1 char:1
++ .venv\Scripts\python.exe scripts\model_evaluation.py 2>&1 | 
+Out-File  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most re 
+   cent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\Brindaa\OneDrive\Desktop\Parkinsons\scripts\mod
+el_evaluation.py", line 15, in <module>
+    print("\n\U0001f4c2 Loading datasets...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Brindaa\AppData\Local\Programs\Python\Python313
+\Lib\encodings\cp1252.py", line 19, in encode
+    return 
+codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           
+~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character 
+'\U0001f4c2' in position 2: character maps to <undefined>
